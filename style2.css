@@ -27,7 +27,7 @@ h3 {
 
 p {
   font-family: 'Quattrocento Sans', sans-serif;
-  font-size:90%;
+  font-size:120%;
   color: rgb(59, 27, 27);
 }
 body {
@@ -38,19 +38,10 @@ body {
 }
 
 /*Sections*/
-.header {
-
-}
 .intro {
   background-image: url(orna.png);
   background-repeat: no-repeat;
   background-size: 300px;
-}
-.page-wrapper {
-
-}
-.summary {
-
 }
 .summary p {
   font-style: italic;
@@ -61,7 +52,6 @@ body {
   position:absolute;
   right: 33em;
   top: 10em;
-  
 }
 .summary p:last-child {
   width: 400px;
@@ -72,6 +62,8 @@ body {
 .preamble, .explanation {
   background-color:rgb(255, 227, 194, 0.7);
   border-top: 3px solid brown;
+  text-align:left;
+  height:300px;
 }
 .preamble {
 float: left;
@@ -82,27 +74,123 @@ padding-bottom: 2px;
 .explanation {
 float: left;
 width:50%;
+margin-top: 12px;
+padding-bottom: 4px;
+}
+.explanation p {
+  margin-left: 20px;
+}
+.explanation h3 {
+  margin-left: 20px;
+}
+.preamble p {
+  margin-left: 20px;
+}
+.preamble h3 {
+  margin-left: 20px;
 }
 .participation {
-
+  float: left;
+  margin: 0;
+  padding: 0;
+  border-top: 3px solid rgb(172, 130, 130); 
+  background-color:rgba(224, 170, 103, 0.6);
+  background-image: url(rice.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+}
+.participation p {
+  color: rgb(59, 27, 27);
+  padding: 0;
+  margin-left: 20px;
+  width: 60%;
+}
+.participation h3 {
+  margin-left: 20px;
 }
 .benefits {
-
+  float: left;
+  margin: 0;
+  padding: 0;
+  background-color:rgb(255, 227, 194, 0.7);
+  border-top: 1px solid brown;
+  background-image: url(money.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+}
+.benefits h3 {
+  margin-left: 30em;
+}
+.benefits p {
+  padding: 0;
+  width: 40%;
+  margin-left: 50em;
 }
 .requirements {
-
+float: left;
+margin: 0;
+padding: 0;
+background-color:rgb(255, 227, 194, 0.7);
+border-top: 1px solid rgb(172, 130, 130); 
+}
+.requirements p {
+  padding: 0;
+  width: 70%;
+  margin-left: 100px;
+}
+.requirements h3 {
+  margin-left: 100px;
+}
+a:link {
+  color: rgb(173, 24, 24);
+}
+a:hover {
+  color: purple; 
 }
 footer {
-
+background-color: rgb(231, 219, 202, 0.6);
+text-align: center;
+font-weight: bold;
+font-size: 140%;
+border-bottom: 3px solid brown;
 }
 
 /* sidebar */
 .design-selection {
-
+  padding: 0;
+  float:left;
+  width: 33%;
+  padding-top: 10px;
+  background-color:rgb(255, 227, 194, 0.7);
+  
+}
+.design-selection h3 {
+  margin-left: 20px;
 }
 .zen-resources {
-
+  padding: 0;
+  width: 33%;
+  float:left;
+  background-color: rgb(255, 227, 194, 0.7);
 }
-.design-archives {
+.zen-resources h3 {
+  margin-left: 20px;
+}
 
+.design-archives {
+  padding: 0;
+  width:33%;
+  float: left;
+  background-color:rgb(255, 227, 194, 0.7);
+}
+.design-archives h3 {
+  margin-left: 20px;
+}
+li a:link {
+  text-decoration: none;
+}
+ul {
+  list-style-image: url(arrow.png);
 }
