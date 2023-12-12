@@ -19,7 +19,7 @@ h3::first-letter {
 p {
     font-family: 'Schibsted Grotesk', sans-serif;
     font-size: 85%;
-    letter-spacing: 0.3;
+    letter-spacing: 0;
 }
 body {
     margin: 0;
