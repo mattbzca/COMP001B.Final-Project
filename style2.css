@@ -6,26 +6,35 @@ font-family: 'Quattrocento Sans', sans-serif;
 font-family: 'Fanwood Text', serif; */
 h1 {
   font-family: 'Quattrocento', serif;
-  font-size: 400%;
+  font-size: 460%;
   padding-left: 5em;
   margin-bottom: 0.5em;
+  color: rgb(59, 27, 27);
   
 }
 h2 {
   font-family: 'Fanwood Text', serif;
-  padding-left: 14em;
+  padding-left: 16.5em;
   padding-bottom: 2em;
+  color: brown;
+  font-size: 150%;
 }
 h3 {
   font-family: 'Fanwood Text', serif;
+  color: brown;
+  font-size: 200%;
 }
+
 p {
   font-family: 'Quattrocento Sans', sans-serif;
+  font-size:90%;
+  color: rgb(59, 27, 27);
 }
 body {
     margin: 0;
     padding: 0;
     background-image: url(loco.jpg);
+    background-attachment: fixed;
 }
 
 /*Sections*/
@@ -34,10 +43,8 @@ body {
 }
 .intro {
   background-image: url(orna.png);
-  background-image: url(orna.png);
   background-repeat: no-repeat;
   background-size: 300px;
-  background-position: 0 top, 80px top;
 }
 .page-wrapper {
 
@@ -45,11 +52,36 @@ body {
 .summary {
 
 }
+.summary p {
+  font-style: italic;
+  font-size:medium;
+}
+.summary p:first-child {
+  width: 400px;
+  position:absolute;
+  right: 33em;
+  top: 10em;
+  
+}
+.summary p:last-child {
+  width: 400px;
+  position:absolute;
+  right: 3em;
+  top: 10em;
+}
+.preamble, .explanation {
+  background-color:rgb(255, 227, 194, 0.7);
+  border-top: 3px solid brown;
+}
 .preamble {
-
+float: left;
+width: 50%;
+margin-top: 12px;
+padding-bottom: 2px;
 }
 .explanation {
-
+float: left;
+width:50%;
 }
 .participation {
 
