@@ -27,8 +27,8 @@ body {
     background: url(valleymountain.jpg);
 }
 .page-wrapper {
-    width: 800px;
-    height: 200px;
+    width: 801px;
+    height: 201px;
     margin: 0 auto;
     padding: 0 0;
     position: relative;
@@ -54,7 +54,8 @@ body {
     color: black;
     text-align:left; 
     position: relative;
-    border-left: 1px solid black;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
 }
 .summary p:last-child {
     border-top: 1px solid black;
@@ -73,71 +74,121 @@ a:hover {
     padding: 5px;
     height: 200px;
     width: 600px;
-    background: rgba(245, 40, 235, 0.6);
+    background: rgba(245, 40, 235, 0.65);
     text-align: left;
     border-bottom: 1px solid white;
-    border-left: 1px solid black;
+    border-left: 1px solid white;
 }
 .explanation {
     position: relative;
     padding: 5px;
     height: 200px;
     width: 600px;
-    background: rgba(245, 40, 235, 0.6);
+    background: rgba(245, 40, 235, 0.65);
     text-align: left;
     border-bottom: 1px solid white;
-    border-left: 1px solid black;
+    border-left: 1px solid white;
 }
 .participation {
     position: relative;
     padding: 5px;
     height: 250px;
     width: 600px;
-    background: rgba(245, 40, 235, 0.6);
+    background: rgba(245, 40, 235, 0.65);
     text-align: left;
     border-bottom: 1px solid white;
-    border-left: 1px solid black;
+    border-left: 1px solid white;
 }
 .benefits {
     position: relative;
     padding: 5px;
     height: 120px;
     width: 600px;
-    background: rgba(245, 40, 235, 0.6);
+    background: rgba(245, 40, 235, 0.65);
     text-align: left;
     border-bottom: 1px solid white;
-    border-left: 1px solid black;
+    border-left: 1px solid white;
 }
 .requirements {
     position: relative;
     padding: 5px;
     height: 380px;
     width: 600px;
-    background: rgba(245, 40, 235, 0.6);
+    background: rgba(245, 40, 235, 0.65);
     text-align: left;
-    border-bottom: 1px solid white;
-    border-left: 1px solid black;
+    border-left: 1px solid white;
 }
 footer {
     position:absolute;
-	width:610px;
-	background:rgba(232, 165, 82, 0.6);
+	width:801px;
+	background:rgba(232, 165, 82, 0.65);
     background: url(purp.jpg) no-repeat;
-	border-top:#fff 1px solid;
-	color:#fff;
+	border-top:white 1px solid;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    border-bottom-right-radius: 15px;
+	color: #fff;
+}
+footer a:visited {
+    color: gray;
+}
+footer a:hover {
+    color:pink;
 }
 
 /* sidebar */
-.sidebar {
-    position: relative;
-    margin-top: 6px;
-    margin-left: 900px;
-    padding: 20px;
-    height: 500px;
-    width: 600px;
-    border-radius: 15px;
-    border-left: 1px solid #ffffff;
-    border-right: 1px solid #ffffff;
-    background: rgba(201, 194, 194, 0.6);
+.design-selection {
+    position: absolute;
+    right: -2px;
+    top: 301px;
+    height: 397px;
+    width: 191px;
+    background: rgba(255, 244, 135, 0.6);
+    border-right: 1px solid white;
+    padding-top: 3px;
 }
-
+.design-selection h3 {
+    border-bottom: 0;
+}
+.design-selection a:hover {
+    color:rgb(102, 102, 211);
+}
+.zen-resources a:hover {
+    color:rgb(102, 102, 211);
+}
+.design-archives a:hover {
+    color:rgb(102, 102, 211);
+}
+ul {
+    line-height: 1.4;
+    list-style-image: url(arrow.png);
+}
+li a:link{
+ text-decoration: none;
+}
+.design-archives {
+    position: absolute;
+    right: -2px;
+    top: 701px;
+    height: 147px;
+    width: 191px;
+    background: rgba(255, 244, 135, 0.6);
+    border-right: 1px solid white;
+    padding-top: 3px;
+}
+.zen-resources {
+    position: absolute;
+    right: -2px;
+    top: 851px;
+    height: 655px;
+    width: 191px;
+    background: rgba(255, 244, 135, 0.6);
+    border-right: 1px solid white;
+}
+.design-archives h3 {
+    border-bottom: 0;
+}
+.zen-resources h3 {
+    border-bottom: 0;
+}
