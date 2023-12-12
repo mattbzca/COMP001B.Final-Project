@@ -9,9 +9,17 @@ h2 {
 }
 h3 {
     font-family: 'Trispace', sans-serif;
+    font-style: italic;
+    border-bottom: 2px dotted pink;
+    text-shadow: 1px 1px 2px purple;
+}
+h3::first-letter {
+    font-weight: bold;
 }
 p {
     font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 85%;
+    letter-spacing: 0.3;
 }
 body {
     margin: 0;
@@ -19,28 +27,117 @@ body {
     background: url(valleymountain.jpg);
 }
 .page-wrapper {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
     width: 800px;
     height: 200px;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 0;
     position: relative;
     background: rgba(0, 0, 0, 0.6);
+    background: url(purp.jpg) no-repeat;
     border-left: 1px solid #ffffff;
     border-right: 1px solid #ffffff;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
     color: white;
-    text-align: left;
+    text-align: center;
+    border-top-left-radius: 15px;
+}
+.summary p {
+    font-style: oblique;
 }
 .summary {
-    width: 860px;
-    background: rgba(0, 0, 0, 0.6);
-    border-right: 1px solid #ffffff;
-    border-left: 1px solid #ffffff;
-    margin-top: 90px;
-    color: white;
+    width: 780px;
+    background: rgba(255, 255, 255, 0.2);
+    margin-top: 43px;
+    height: 80px;
+    padding: 10px;
+    color: black;
     text-align:left; 
     position: relative;
+    border-left: 1px solid black;
 }
+.summary p:last-child {
+    border-top: 1px solid black;
+}
+a:link {
+    color: rgb(87, 27, 87);
+}
+footer a:link {
+    color: rgb(255, 255, 255);  
+}
+a:hover {
+    color:pink;
+}
+.preamble {
+    position: relative;
+    padding: 5px;
+    height: 200px;
+    width: 600px;
+    background: rgba(245, 40, 235, 0.6);
+    text-align: left;
+    border-bottom: 1px solid white;
+    border-left: 1px solid black;
+}
+.explanation {
+    position: relative;
+    padding: 5px;
+    height: 200px;
+    width: 600px;
+    background: rgba(245, 40, 235, 0.6);
+    text-align: left;
+    border-bottom: 1px solid white;
+    border-left: 1px solid black;
+}
+.participation {
+    position: relative;
+    padding: 5px;
+    height: 250px;
+    width: 600px;
+    background: rgba(245, 40, 235, 0.6);
+    text-align: left;
+    border-bottom: 1px solid white;
+    border-left: 1px solid black;
+}
+.benefits {
+    position: relative;
+    padding: 5px;
+    height: 120px;
+    width: 600px;
+    background: rgba(245, 40, 235, 0.6);
+    text-align: left;
+    border-bottom: 1px solid white;
+    border-left: 1px solid black;
+}
+.requirements {
+    position: relative;
+    padding: 5px;
+    height: 380px;
+    width: 600px;
+    background: rgba(245, 40, 235, 0.6);
+    text-align: left;
+    border-bottom: 1px solid white;
+    border-left: 1px solid black;
+}
+footer {
+    position:absolute;
+	width:610px;
+	background:rgba(232, 165, 82, 0.6);
+    background: url(purp.jpg) no-repeat;
+	border-top:#fff 1px solid;
+	color:#fff;
+}
+
+/* sidebar */
+.sidebar {
+    position: relative;
+    margin-top: 6px;
+    margin-left: 900px;
+    padding: 20px;
+    height: 500px;
+    width: 600px;
+    border-radius: 15px;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    background: rgba(201, 194, 194, 0.6);
+}
+
