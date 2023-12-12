@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&family=Quattrocento+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text&display=swap');
+
+/* font-family: 'Quattrocento', serif;
+font-family: 'Quattrocento Sans', sans-serif;
+font-family: 'Fanwood Text', serif; */
+h1 {
+  font-family: 'Quattrocento', serif;
+  font-size: 400%;
+  padding-left: 5em;
+  margin-bottom: 0.5em;
+  
+}
+h2 {
+  font-family: 'Fanwood Text', serif;
+  padding-left: 14em;
+  padding-bottom: 2em;
+}
+h3 {
+  font-family: 'Fanwood Text', serif;
+}
+p {
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(loco.jpg);
+}
+
+/*Sections*/
+.header {
+
+}
+.intro {
+  background-image: url(orna.png);
+  background-image: url(orna.png);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: 0 top, 80px top;
+}
+.page-wrapper {
+
+}
+.summary {
+
+}
+.preamble {
+
+}
+.explanation {
+
+}
+.participation {
+
+}
+.benefits {
+
+}
+.requirements {
+
+}
+footer {
+
+}
+
+/* sidebar */
+.design-selection {
+
+}
+.zen-resources {
+
+}
+.design-archives {
+
+}
